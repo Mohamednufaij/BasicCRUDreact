@@ -1,0 +1,34 @@
+{
+  "Employees": [
+    {
+      "empname": "farry",
+      "empsalary": "150000",
+      "empcompany": "ausy",
+      "id": "f4fb"
+    },
+    {
+      "id": "8ad4",
+      "empname": "jaseem",
+      "empsalary": "45000",
+      "empcompany": "apone"
+    },
+    {
+      "id": "4f32",
+      "empname": "anirudh",
+      "empsalary": "50000",
+      "empcompany": "mahindra"
+    },
+    {
+      "id": "f488",
+      "empname": "kannan",
+      "empsalary": "500000",
+      "empcompany": "zoho"
+    },
+    {
+      "empname": "nufaij",
+      "empsalary": "10001",
+      "empcompany": "zoho",
+      "id": "334b"
+    }
+  ]
+}

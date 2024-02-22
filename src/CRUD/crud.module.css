@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(2, 83, 2);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(2, 83, 2);
+}
+#home>#main{
+    height: 100%;
+    width: 80%;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#home>#main>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: azure;
+    margin-left: 500px;
+    margin-top: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#box>form>input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    background-color: black;
+    color: white;
+}
+#box>form>input:focus{
+    outline: none;
+}
+#box>form>button{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+#usersPage{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(2, 83, 2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    /* margin-top: 40px; */
+}
+#usersPage>#card{
+    height: 300px;
+    width: 250px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+    border-radius: 9px;
+    box-shadow: 7px 7px 10px black;
+
+}
+
+#usersPage>#card>table>tr{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin-top: 20px;
+}
+
+
+
+#usersPage>#card>table>tr>button{
+    /* text-align: center; */
+    background-color:white ;
+    border: 2px solid black;
+    color: black;
+    height: 28px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 15px;
+    /* text-decoration: none; */
+
+
+}
+
+/* #usersPage>#card>table>tr>th{
+    margin-top: 20px;
+    
+} */

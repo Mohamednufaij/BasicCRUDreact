@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height:75px;
+    width: 100%;
+    border: 1px solid rgb(214,214,214);
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 100%;
+    width: 95%;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+#nav>article>.Logo{
+    height: 100%;
+    width: 30%;
+    /* background-color: brown; */
+
+}
+#nav>article>.Menu{
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+}
+#nav>article>.Btn{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+#logoblock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+#logoblock>p{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(45 136 226);
+    font-size: 22px;
+}
+#MenuBlock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-decoration: none;
+    /* color: white; */
+}
+#MenuBlock>li{
+    list-style: none;
+    text-decoration: none;
+}
+/* #MenuBlock>.menuheadings{
+    color: rgb(115 121 128);
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+
+} */
+#MenuBlock>li>a{
+    text-decoration: none;
+    color: rgb(115 121 128);
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+}
+#MenuBlock>li>a:hover{
+    cursor: pointer;
+    color: black;
+}
+/* #MenuBlock>.menuheadings:hover{
+    cursor: pointer;
+    color: black; */
+
+#Getstarted{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#Getstarted>button{
+    height: 30px;
+    width: 125px;
+    background-color: rgb(23,124,226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 10px solid rgb(23,124,226); */
+    border-radius: 5px;
+    border: 1px solid rgb(23,124,226) ;
+
+}
+#Getstarted>button:hover{
+    cursor: pointer;
+    color: blue;
+}
+#Getstarted>button>svg{
+    height: 100%;
+    width: 20px;
+    color: white;
+    
+}
+#Getstarted>button>p{
+    color: white;
+    margin-left: 10px;
+}
